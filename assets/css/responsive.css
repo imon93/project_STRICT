@@ -1,0 +1,52 @@
+
+@media (min-width: 1400px) {
+    .footer_icon {
+        margin-right: 35px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .footer_icon {
+        margin-right: 45px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer_icon {
+        margin-right: 45px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero_con h2 {
+        font-size: 100px;
+    }
+
+    .footer_icon {
+        margin-right: 45px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .footer_icon {
+        margin-right: 45px;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero_con h2 {
+        font-size: 80px;
+    }
+
+    .portfolio_headline h3 {
+        font-size: 32px;
+    }
+
+    .form-check label {
+        font-size: 14px;
+    }
+
+    .footer_icon {
+        margin-right: 15px;
+    }
+}

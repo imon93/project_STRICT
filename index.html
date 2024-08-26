@@ -2,18 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STRICT</title>
-    <link rel="stylesheet" href="ASSETS/CSS/all.min.css">
-    <link rel="stylesheet" href="ASSETS/CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="ASSETS/CSS/style.css">
+
+    <!-- CSS LINK -->
+     <link rel="stylesheet" href="assets/css/all.min.css">
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/venobox.min.css">
+     <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- CSS LINK END -->
+
 </head>
 <body>
+    <!-- PRELOADER AREA -->
+     <div class="preloader_area">
+      <div class="loader"></div>
+     </div>
+    <!-- PRELOADER AREA END -->
+
+
+    <!-- BACK TO TOP BTN -->
+     <button class="back_to_top btn btn-primary">
+      <i class="fa-solid fa-angles-up"></i>
+     </button>
+    <!-- BACK TO TOP BTN END -->
+
+
     <!-- MENU AREA -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="ASSETS/img/LOGO.png" alt="LOGO.png">
+            <img src="assets/image/logo.png" alt="LOGO">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,222 +42,220 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">home</a>
+                <a class="nav-link" aria-current="page" href="#home">home</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">service</a>
+                <a class="nav-link" aria-current="page" href="#service">service</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">works</a>
+                <a class="nav-link" aria-current="page" href="#works">works</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">contact us</a>
+                <a class="nav-link" aria-current="page" href="#contact us">contact us</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+     </nav>
     <!-- MENU AREA END -->
-
-    <!-- ------------------------------------------- -->
-
 
 
     <!-- HERO AREA -->
-    <section class="hero_area">
+     <section class="hero_area" id="home">
         <div class="container">
             <div class="hero_con_main">
-                <div class="hero_con">
-                    <h1>strict</h1>
-                    <div class="div"></div>
-                    <h5>STRICT is a responsive theme with a a clean and minimal look.</h5>
-                    <div class="hero_btn">
-                        <a href="#" class="btn btn-primary btn-lg">Call to action</a>
-                    </div>
-                    <div class="icon-area">
-                        <div class="hero-icon">
-                            <i class="fa-solid fa-angle-down"></i>
+                <div class="row">
+                    <div class="col-md-3"></div>
+
+                    <div class="col-md-6">
+                        <div class="hero_con text-white text-center">
+                            <h2 class="text-uppercase">strict</h2>
+
+                            <div class="hero_div"></div>
+
+                            <h6 class="mt-4">STRICT is a responsive theme with a a clean and minimal look.</h6>
+
+                            <div class="hero_btn mt-5">
+                                <a href="#" class="btn btn-primary btn-lg me-3">Call to action</a>
+                            </div>
+
+                            <div class="arrow_down">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="col-md-3"></div>
                 </div>
             </div>
         </div>
-    </section>
+     </section>
     <!-- HERO AREA END -->
 
-    <!-- ------------------------------------------- -->
 
-
-
-    <!--    DESIGN AREA -->
-    <section class="design_area">
-        <div class="container">
-            <div class="design">
-                <div class="design_con_main">
-                    <div class="design_con">
-                        <h2>Simple & pure design.</h2>
-                        <p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of webdesign round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to spot a good example of clean design.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- DESIGN AREA -->
+     <section class="design_area">
+      <div class="container">
+        <div class="design_con_main">
+          <div class="design_con text-center">
+            <h3>Simple & pure design.</h3>
+            <p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of webdesign round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to spot a good example of clean design.</p>
+          </div>
         </div>
-    </section>
-    <!--    DESIGN AREA END -->
-
-    <!-- ------------------------------------------- -->
-
+      </div>
+     </section>
+    <!-- DESIGN AREA END -->
 
 
     <!-- SERVICE AREA -->
-    <section class="service_area">
+     <section class="service_area" id="service">
       <div class="container">
         <div class="service_con_main">
-          <div class="row g-5">
-            <div class="col-lg-4 col-md-6 col-sm-6">
+          <div class="row gy-5">
+            <div class="col-lg-4 col-sm-6">
               <div class="service_con text-center position-relative">
                 <div class="service_icon position-absolute">
-                  <img src="ASSETS/img/Feature_img01.png" alt="Feature_img01.png">
+                  <img src="assets/image/service/service_img01.png" alt="SERVICE_IMAGE">
                 </div>
                 <h3>Optimized for all devices</h3>
-                <p>STRICT has been designed to be fully</p> 
+                <p>STRICT has been designed to be fully</p>
                 <p>responsive on all devices</p>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
               <div class="service_con text-center position-relative">
                 <div class="service_icon position-absolute">
-                  <img src="ASSETS/img/Feature_img02.png" alt="Feature_img02.png">
+                  <img src="assets/image/service/service_img02.png" alt="SERVICE_IMAGE">
                 </div>
                 <h3>Clean & Minimal Design</h3>
                 <p>This multipurpose theme is especially created</p>
                 <p>to be used for different projects.</p>
+                
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="col-lg-4">
               <div class="service_con text-center position-relative">
                 <div class="service_icon position-absolute">
-                  <img src="ASSETS/img/Feature_img03.png" alt="Feature_img03.png">
+                  <img src="assets/image/service/service_img03.png" alt="SERVICE_IMAGE">
                 </div>
                 <h3>Font Awesome Icon</h3>
-                <p>This multipurpose theme is especially created</p> 
+                <p>This multipurpose theme is especially created</p>
                 <p>to be used for different projects.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+     </section>
     <!-- SERVICE AREA END -->
-
-    <!-- ------------------------------------------- -->
-
 
 
     <!-- PORTFOLIO AREA -->
-    <section class="portfolio_area">
+     <section class="portfolio_area" id="works">
       <div class="container">
-        <div class="portfolio_headline">
-          <h2>Showcase your work like a pro.</h2>
-          <h6> Contact me if you like my work</h6>
+
+        <div class="portfolio_headline text-center">
+          <h3>Showcase your work like a pro.</h3>
+          <h6>Contact me if you like my work</h6>
         </div>
 
         <div class="portfolio_con_main">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-sm-6">
               <div class="portfolio_con">
-                <div class="portfolio_img">
-                  <img src="ASSETS/img/Portfolio_01.jpg" alt="Portfolio_01.jpg" class="w-100">
-                  <div class="portfolio_overlay">
-                    <div class="box_01 me-2">
-                      <a href="#"><i class="fa-brands fa-searchengin"></i></a>
+                <div class="portfolio_image position-relative">
+                  <img src="assets/image/work/work01.png" alt="WORK_IMAGE" class="w-100">
+                  <div class="portfolio_overlay position-absolute">
+                    <div class="box01 me-2">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/work01.png"><i class="fa-brands fa-searchengin"></i></a>
                     </div>
 
-                    <div class="box_02">
-                      <a href="#"><i class="fa-solid fa-link"></i></a>
+                    <div class="box02">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/Cycle/bicycle-01.jpg"><i class="fa-solid fa-link"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
-              
+
               <div class="portfolio_con mt-4">
-                <div class="portfolio_img">
-                  <img src="ASSETS/img/Portfolio_04.jpg" alt="Portfolio_04.jpg" class="w-100">
-                  <div class="portfolio_overlay">
-                    <div class="box_01 me-2">
-                      <a href="#"><i class="fa-brands fa-searchengin"></i></a>
+                <div class="portfolio_image position-relative">
+                  <img src="assets/image/work/work04.jpg" alt="WORK_IMAGE" class="w-100">
+                  <div class="portfolio_overlay position-absolute">
+                    <div class="box01 me-2">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/work04.jpg"><i class="fa-brands fa-searchengin"></i></a>
                     </div>
 
-                    <div class="box_02">
-                      <a href="#"><i class="fa-solid fa-link"></i></a>
+                    <div class="box02">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/Cycle/caffeine_coffee.jpg"><i class="fa-solid fa-link"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
               <div class="portfolio_con">
-                <div class="portfolio_img">
-                  <img src="ASSETS/img/Portfolio_02.jpg" alt="Portfolio_02.jpg" class="w-100">
-                  <div class="portfolio_overlay">
-                    <div class="box_01 me-2">
-                      <a href="#"><i class="fa-brands fa-searchengin"></i></a>
+                <div class="portfolio_image position-relative">
+                  <img src="assets/image/work/work02.jpg" alt="WORK_IMAGE" class="w-100">
+                  <div class="portfolio_overlay position-absolute">
+                    <div class="box01 me-2">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/work02.jpg"><i class="fa-brands fa-searchengin"></i></a>
                     </div>
 
-                    <div class="box_02">
-                      <a href="#"><i class="fa-solid fa-link"></i></a>
+                    <div class="box02">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/Cycle/woman.jpg"><i class="fa-solid fa-link"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="portfolio_con mt-4">
-                <div class="portfolio_img">
-                  <img src="ASSETS/img/Portfolio_05.jpg" alt="Portfolio_05.jpg" class="w-100">
-                  <div class="portfolio_overlay">
-                    <div class="box_01 me-2">
-                      <a href="#"><i class="fa-brands fa-searchengin"></i></a>
+                <div class="portfolio_image position-relative">
+                  <img src="assets/image/work/work05.jpg" alt="WORK_IMAGE" class="w-100">
+                  <div class="portfolio_overlay position-absolute">
+                    <div class="box01 me-2">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/work05.jpg"><i class="fa-brands fa-searchengin"></i></a>
                     </div>
 
-                    <div class="box_02">
-                      <a href="#"><i class="fa-solid fa-link"></i></a>
+                    <div class="box02">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/Cycle/bicycle-04.jpg"><i class="fa-solid fa-link"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="col-lg-4">
               <div class="portfolio_con">
-                <div class="portfolio_img">
-                  <img src="ASSETS/img/Portfolio_03.jpg" alt="Portfolio_03.jpg" class="w-100">
-                  <div class="portfolio_overlay">
-                    <div class="box_01 me-2">
-                      <a href="#"><i class="fa-brands fa-searchengin"></i></a>
+                <div class="portfolio_image position-relative">
+                  <img src="assets/image/work/work03.jpg" alt="WORK_IMAGE" class="w-100">
+                  <div class="portfolio_overlay position-absolute">
+                    <div class="box01 me-2">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/work03.jpg"><i class="fa-brands fa-searchengin"></i></a>
                     </div>
 
-                    <div class="box_02">
-                      <a href="#"><i class="fa-solid fa-link"></i></a>
+                    <div class="box02">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/Cycle/mugs_01.jpg"><i class="fa-solid fa-link"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="portfolio_con mt-4">
-                <div class="portfolio_img">
-                  <img src="ASSETS/img/Portfolio_06.jpg" alt="Portfolio_06.jpg" class="w-100">
-                  <div class="portfolio_overlay">
-                    <div class="box_01 me-2">
-                      <a href="#"><i class="fa-brands fa-searchengin"></i></a>
+                <div class="portfolio_image position-relative">
+                  <img src="assets/image/work/work06.jpg" alt="WORK_IMAGE" class="w-100">
+                  <div class="portfolio_overlay position-absolute">
+                    <div class="box01 me-2">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/work06.jpg"><i class="fa-brands fa-searchengin"></i></a>
                     </div>
 
-                    <div class="box_02">
-                      <a href="#"><i class="fa-solid fa-link"></i></a>
+                    <div class="box02">
+                      <a class="my-image-links" data-gall="gallery01" href="assets/image/work/Cycle/bicycle-06.jpg"><i class="fa-solid fa-link"></i></a>
                     </div>
                   </div>
                 </div>
@@ -245,48 +264,46 @@
           </div>
         </div>
       </div>
-    </section>
+     </section>
     <!-- PORTFOLIO AREA END -->
 
-    <!-- ------------------------------------------- -->
 
+    <!-- CONTACT AREA -->
+     <section class="contact_area" id="contact us">
+      <div class="container">
+        <div class="contact_con_main">
+          <div class="row">
+            <div class="col-lg-3"></div>
 
+            <div class="col-lg-6">
+              <div class="contact_con text-center text-white">
+                <h3>Stay with us</h3>
+                <h6>We ensure quailty & support</h6>
+              </div>
 
-    <!-- SUB-FOOTER AREA -->
-    <section>
-      <div class="sub_footer_area">
-        <div class="container">
-          <div class="sub_footer_con_main">
-            <div class="row">
-              <div class="col-4"></div>
-              <div class="col-4">
-                <div class="sub_footer_con">
-                  <h3>Stay with us</h3>
-                  <h6>We ensure quailty & support</h6>
-                </div>
+              <div class="contact_from_area">
+                <div class="form">
+                  <div class="form-floating mb-3">
+                    <input type="name" class="form-control" id="floatingInput" placeholder="name">
+                    <label for="floatingInput">Full Name</label>
+                  </div>
+            
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email Address</label>
+                  </div>
+            
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Message</label>
+                  </div>
 
-                <div class="sub_footer_form_area">
-                  <div class="form">
-                    <div class="form-floating mb-3">
-                      <input type="name" class="form-control" id="floatingInput" placeholder="name">
-                      <label for="floatingInput">Full Name</label>
+                  <div class="contact_btn position-relative">
+                    <div class="btn">
+                      <a href="#" class="btn btn-primary btn-lg">Send</a>
                     </div>
 
-                    <div class="form-floating mb-3">
-                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                      <label for="floatingInput">Email Address</label>
-                    </div>
-
-                    <div class="form-floating">
-                      <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
-                      <label for="floatingTextarea2">Message</label>
-                    </div>
-                    <div class="sub_footer_btn">
-                      <div class="btn">
-                        <a href="#" class="btn btn-primary btn-lg">Send</a>
-                      </div>
-                    </div>
-                    <div class="check_box text-white">
+                    <div class="check_box text-white position-absolute">
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
@@ -295,44 +312,70 @@
                       </div>
                     </div>
                   </div>
+
+                  <!-- <div class="check_box text-white">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Subscribe Newsletter
+                      </label>
+                    </div>
+                  </div> -->
                 </div>
               </div>
-              <div class="col-4"></div>
+            </div>
+
+            <div class="col-lg-3"></div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- CONTACT AREA END -->
+
+
+    <!-- FOOTER AREA -->
+     <footer class="footer_area">
+      <div class="container">
+        <div class="footer_con_main">
+          <div class="row gy-2">
+            <div class="col-sm-6">
+              <div class="footer_con text-sm-start text-center">
+                <p>Copyright &copy; 2024, STRICT</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <ul class="footer_icon d-flex justify-content-sm-end justify-content-center gap-2">
+                <div class="box_01">
+                  <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                </div>
+
+                <div class="box_02">
+                  <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                </div>
+
+                <div class="box_03">
+                  <li><a href="#" target="_blank"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                </div>
+
+                <div class="box_04">
+                  <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </div>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- SUB-FOOTER AREA END -->
-
-    <!-- ------------------------------------------- -->
-
-
-
-    <!-- FOOTER AREA -->
-    <footer class="footer_area">
-      <div class="container">
-        <div class="footer_con_main">
-          <div class="footer_con d-flex">
-            <h6>Copyritht 2014, STRICT</h6>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-square-google-plus"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-          </div>
-          <div class="footer_icon"></div>
-        </div>
-      </div>
-    </footer>
+     </footer>
     <!-- FOOTER AREA END -->
 
-    <!-- ------------------------------------------- -->
 
+    <!-- JS LINK -->
+     <script src="assets/js/bootstrap.bundle.min.js"></script>
+     <script src="assets/js/jquery-1.12.4.min.js"></script>
+     <script src="assets/js/venobox.min.js"></script>
+     <script src="assets/js/script.js"></script>
+    <!-- JS LINK END -->
 
-
-
-
-    <script src="ASSETS/JS/bootstrap.bundle.min.js"></script>
-    <script src="ASSETS/JS/app.js"></script>
 </body>
 </html>
